@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research | Suraj Manohar Rajan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav scrolled" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">S<span class="accent">R</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">About</a></li>
+        <li><a href="research.html" class="active">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="cv.html">CV</a></li>
+      </ul>
+      <div class="nav-social">
+        <a href="mailto:suraj.m.rajan@gmail.com" title="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/suraj-manohar-rajan/" target="_blank" title="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
+        </a>
+        <a href="https://github.com/suraj-m-rajan" target="_blank" title="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-main">
+    <div class="container">
+      <div class="page-header">
+        <h1>Research</h1>
+        <p class="page-subtitle">Current and past research across epidemiology, data science, clinical medicine, and infectious disease.</p>
+      </div>
+
+      <!-- UCHDW / CHEER -->
+      <div class="research-card">
+        <div class="research-meta">
+          <span class="research-date">Sept 2024 – Present</span>
+          <div class="research-tags">
+            <span>Cancer Epidemiology</span>
+            <span>Health Disparities</span>
+            <span>OMOP CDM</span>
+          </div>
+        </div>
+        <h2>UC Health Data Warehouse & CHEER Lab</h2>
+        <p class="research-affiliation">UC San Diego Health · Moores Cancer Center · La Jolla, CA</p>
+        <p class="research-dept">Center for Health Equity Education & Research (CHEER)</p>
+        <div class="research-body">
+          <p>Conduct large-scale epidemiological research using the OMOP Common Data Model across multi-institutional UC Health datasets encompassing 15M+ patient records. Key projects include:</p>
+          <ul>
+            <li><strong>Cancer Survivorship & Psychiatric Outcomes:</strong> Designed and executed a multi-center retrospective cohort study examining the incidence and timing of new-onset depression and anxiety following cancer diagnosis, with insurance type as primary exposure and Charlson Comorbidity Index adjustment. Developed complex SQL pipelines and Python analysis workflows in Databricks for data extraction, transformation, survival analysis, and multivariable regression modeling.</li>
+            <li><strong>Prostate Cancer Screening Disparities:</strong> Authored a paper on sociodemographic disparities in prostate cancer screening using the All of Us Research Program database, identifying predictors of lower PSA testing rates including high Area Deprivation Index, healthcare discrimination, rural access delays, and limited health literacy.</li>
+            <li><strong>Wastewater-Based Cancer Epidemiology:</strong> Conducting pre-pilot research on the association between socio-environmental determinants and wastewater-based detection of oncogenic microorganisms in Imperial Valley, CA. Utilizing WBE and shotgun metagenomic sequencing to analyze viral, bacterial, and parasitic pathogens linked to infection-related cancers. Integrating CDC's Environmental Justice Index to evaluate correlations between microbial diversity and community-level vulnerability.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Qian Lab -->
+      <div class="research-card">
+        <div class="research-meta">
+          <span class="research-date">Feb 2025 – Present</span>
+          <div class="research-tags">
+            <span>Otolaryngology</span>
+            <span>Facial Nerve</span>
+            <span>Pediatrics</span>
+          </div>
+        </div>
+        <h2>Qian Lab – Pediatric Otolaryngology</h2>
+        <p class="research-affiliation">UCSD School of Medicine · Dept. of Pediatrics & Otolaryngology · La Jolla, CA</p>
+        <div class="research-body">
+          <ul>
+            <li>Published research on clinical trial publication rates in otolaryngology and otitis media, stratified by funder type, intervention type, and industry sponsorship (<em>Otolaryngology–Head and Neck Surgery</em>).</li>
+            <li>Leading systematic reviews and meta-analyses on AI-based binary classification for otitis media diagnosis.</li>
+            <li>Analyzed 43,000+ patient records for Bell's palsy and facial nerve disorder outcomes across multiple etiologies using UCHDW data.</li>
+            <li>Conducted multi-site analysis of occult lesion diagnosis rates among 25,000 patients with Bell's palsy across a de-identified multi-institutional cohort.</li>
+            <li>Led research on pediatric tonsillectomy outcomes including surgical setting comparisons (clean vs. sterile) and pre-operative weight gain as a predictor of failure in pediatric obstructive sleep apnea.</li>
+            <li>Analyzed pediatric otolaryngology fellowship training trends and career outcomes spanning 2015–2025.</li>
+            <li>Investigated facial reanimation patterns after total parotidectomy with nerve sacrifice using multi-center retrospective data.</li>
+            <li>Evaluated static reconstruction procedure utilization among head and neck cancer patients with facial palsy in the immunotherapy era.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Greene Lab -->
+      <div class="research-card">
+        <div class="research-meta">
+          <span class="research-date">Feb 2025 – Present</span>
+          <div class="research-tags">
+            <span>Facial Plastics</span>
+            <span>Multi-Institutional</span>
+          </div>
+        </div>
+        <h2>Greene Lab – Facial Plastics</h2>
+        <p class="research-affiliation">UCSD School of Medicine · Dept. of Otolaryngology & Facial Plastics · La Jolla, CA</p>
+        <div class="research-body">
+          <ul>
+            <li>Using Epic SlicerDicer to analyze anxiety and depression rates in patients post–Bell's palsy diagnosis and assess impact on future clinical outcomes.</li>
+            <li>Collaborating with institutions across the University of California system (UCSF, UCLA, UCR, UCD, UCI) to compile statewide clinical data for multi-institutional facial nerve research.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Carlin Lab -->
+      <div class="research-card">
+        <div class="research-meta">
+          <span class="research-date">Sept 2024 – Present</span>
+          <div class="research-tags">
+            <span>Virology</span>
+            <span>Genomics</span>
+            <span>Wet Lab</span>
+          </div>
+        </div>
+        <h2>Carlin Lab – Virology</h2>
+        <p class="research-affiliation">UCSD School of Medicine · Dept. of Virology, Genomics & Systems Biology · La Jolla, CA</p>
+        <div class="research-body">
+          <ul>
+            <li>Conducted research on infectious diseases in a wet lab setting using BSL-2+ protocols.</li>
+            <li>Utilized the Triton Shared Computing Cluster for ChIP-seq and RNA-seq analyses to optimize experimental design.</li>
+            <li>Assisted in PCR testing and tissue culturing procedures on mammalian and human cell lines.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Raphael Lab -->
+      <div class="research-card">
+        <div class="research-meta">
+          <span class="research-date">Jan 2023 – Present</span>
+          <div class="research-tags">
+            <span>AMR</span>
+            <span>Machine Learning</span>
+            <span>Epidemiology</span>
+          </div>
+        </div>
+        <h2>Raphael Lab – Antimicrobial Resistance</h2>
+        <p class="research-affiliation">UCSF · Dept. of Epidemiology & Biostatistics / Family and Community Medicine · San Francisco, CA</p>
+        <div class="research-body">
+          <ul>
+            <li>Identified pandemic sequence types of E. coli causing antimicrobial-resistant urinary tract infections through bacterial culturing, DNA extraction, PCR, and gel electrophoresis.</li>
+            <li>Conducted literature review on social determinants associated with developing antibiotic-resistant UTIs.</li>
+            <li>Generated a machine learning algorithm for a dataset of antimicrobial-resistant UTIs diagnosed and treated at San Francisco General Hospital and affiliated clinics.</li>
+            <li>Developing a predictive model incorporating patient demographics to predict emergency department treatment discordance for UTI patients.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- RR:C19 -->
+      <div class="research-card">
+        <div class="research-meta">
+          <span class="research-date">Dec 2021 – Present</span>
+          <div class="research-tags">
+            <span>COVID-19</span>
+            <span>Peer Review</span>
+            <span>Open Access</span>
+          </div>
+        </div>
+        <h2>RR:C19 & RR/ID – Managing Editor</h2>
+        <p class="research-affiliation">UC Berkeley School of Public Health · Berkeley, CA</p>
+        <div class="research-body">
+          <ul>
+            <li>Curate and evaluate high-impact, unverified COVID-19-related preprints for peer review advancement.</li>
+            <li>Communicate reviewer findings to the public and evaluate strengths and limitations of open-access publishing models.</li>
+            <li>Innovate new approaches to improve emerging open-access publishing models for infectious disease research.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Suraj Manohar Rajan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('hamburger').addEventListener('click', function() {
+      this.classList.toggle('open');
+      document.getElementById('navLinks').classList.toggle('open');
+    });
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.research-card').forEach(s => observer.observe(s));
+  </script>
+</body>
+</html>
