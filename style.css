@@ -114,6 +114,27 @@ em { color: var(--accent2); font-style: italic; }
   max-width: 1200px; margin: 0 auto; padding: 0 2rem;
   width: 100%;
 }
+.hero-top {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.hero-info { flex: 1; }
+.hero-headshot {
+  flex-shrink: 0;
+  animation: fadeUp 0.8s 0.5s ease both;
+}
+.headshot-img {
+  width: 200px; height: 200px;
+  border-radius: 50%;
+  border: 3px solid rgba(232, 160, 191, 0.4);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5), 0 0 60px rgba(232, 160, 191, 0.1);
+  transition: all 0.4s;
+}
+.headshot-img:hover {
+  border-color: rgba(232, 160, 191, 0.7);
+  transform: scale(1.03);
+}
 .hero-pre {
   font-family: var(--mono);
   font-size: 0.82rem; color: var(--accent); letter-spacing: 0.12em;
@@ -531,6 +552,9 @@ em { color: var(--accent2); font-style: italic; }
   .areas-grid { grid-template-columns: 1fr; }
 
   .hero-name { font-size: clamp(2.4rem, 10vw, 3.5rem); }
+  .hero-top { flex-direction: column-reverse; text-align: center; gap: 1.5rem; }
+  .hero-badges { justify-content: center; }
+  .headshot-img { width: 150px; height: 150px; }
   .badge-logo { height: 36px; }
 
   .edu-item, .cv-item { grid-template-columns: 1fr; gap: 0.3rem; }
